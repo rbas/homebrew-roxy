@@ -1,6 +1,6 @@
 # Homebrew Tap for Roxy
 
-![Roxy](https://raw.githubusercontent.com/rbas/roxy/main/assets/roxy-logo-small.png)
+![Roxy](assets/roxy-on-cask-small.png)
 
 **Local development proxy with custom `.roxy` domains and automatic HTTPS.**
 One binary. Zero config files. Zero dependencies.
