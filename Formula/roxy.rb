@@ -2,12 +2,12 @@ class Roxy < Formula
   desc "Local development proxy with custom .roxy domains and automatic HTTPS"
   homepage "https://github.com/rbas/roxy"
   license "MIT"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rbas/roxy/releases/download/v0.3.0/roxy-0.3.0-macos-arm64.tar.gz"
-      sha256 "6a3c3382783bf8e7688f8698ca830f7e7673fe7f91d0274a07468698f2c26f2c"
+      url "https://github.com/rbas/roxy/releases/download/v0.4.0/roxy-0.4.0-macos-arm64.tar.gz"
+      sha256 "76c75c40467b16e198a027b8968b924d3b49c276aeb4122fe55fc800024bb69d"
     else
       odie "Roxy currently only supports Apple Silicon (ARM64). Intel Macs are not yet supported."
     end
